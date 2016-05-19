@@ -40,7 +40,7 @@ Single "tidy" file.  Attributes specified in Assignment4_FieldSpec.xls
 Filename: tidy_data_X_Y_subject_avg.txt (prettier view)
 Format: created by R write.table
 
-### Fields
+### Fields - data is PER SUBJECT
 Field #	Field Name
 
 1				Subject		- Domain 1-30
