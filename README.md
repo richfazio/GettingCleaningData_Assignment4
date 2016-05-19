@@ -7,6 +7,9 @@ Assignment #4
 Post process data sourced from 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
+## Input File
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 A further analsys of the above prior art.
 
 CodeBook.MD describes the proceses used
