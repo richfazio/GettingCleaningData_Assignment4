@@ -29,81 +29,74 @@ Single "tidy" file.  Attributes specified in Assignment4_FieldSpec.xls
 Filename: tidy_data_X_Y_subject_avg.txt (prettier view)
 Format: created by R write.table
 
-
-Field #	  Field Name	                    Details	  Datatype	  Domain
-1	        Subject	                        SubjectID Number	    Numeric	1-30
-2	        Activity	                      ActivityRecorded	    String	WALKING, SITTING, 
-                                                                        WALKING_UPSTAIRS, 
-                                                                        WALKING_DOWNSTAIRS, 
-                                                                        STANDING, LAYING
-3	        TimeBodyAccelerometer-Mean()-X	Time for Accel in S	  Numeric	Real Number
-4	        TimeBodyAccelerometer-Mean()-Y	Time for Accel in S	  Numeric	Real Number
-5	        TimeBodyAccelerometer-Mean()-Z	Time for Accel in S	  Numeric	Real Number
-6	        TimeBodyAccelerometer-Standard Deviation()-X	Time for Accel in S	Numeric	Real Number
-7	TimeBodyAccelerometer-Standard Deviation()-Y	Time for Accel in S	Numeric	Real Number
-8	TimeBodyAccelerometer-Standard Deviation()-Z	Time for Accel in S	Numeric	Real Number
-9	TimeGravityAccelerometer-Mean()-X	Time for Accel in S	Numeric	Real Number
-10	TimeGravityAccelerometer-Mean()-Y	Time for Accel in S	Numeric	Real Number
-11	TimeGravityAccelerometer-Mean()-Z	Time for Accel in S	Numeric	Real Number
-12	TimeGravityAccelerometer-Standard Deviation()-X	Time for Accel in S	Numeric	Real Number
-13	TimeGravityAccelerometer-Standard Deviation()-Y	Time for Accel in S	Numeric	Real Number
-14	TimeGravityAccelerometer-Standard Deviation()-Z	Time for Accel in S	Numeric	Real Number
-15	TimeBodyAccelerometerJerk-Mean()-X	Time for Accel in S	Numeric	Real Number
-16	TimeBodyAccelerometerJerk-Mean()-Y	Time for Accel in S	Numeric	Real Number
-17	TimeBodyAccelerometerJerk-Mean()-Z	Time for Accel in S	Numeric	Real Number
-18	TimeBodyAccelerometerJerk-Standard Deviation()-X	Time for Accel in S	Numeric	Real Number
-19	TimeBodyAccelerometerJerk-Standard Deviation()-Y	Time for Accel in S	Numeric	Real Number
-20	TimeBodyAccelerometerJerk-Standard Deviation()-Z	Time for Accel in S	Numeric	Real Number
-21	TimeBodyGyroscope-Mean()-X	Time for Accel in S	Numeric	Real Number
-22	TimeBodyGyroscope-Mean()-Y	Time for Accel in S	Numeric	Real Number
-23	TimeBodyGyroscope-Mean()-Z	Time for Accel in S	Numeric	Real Number
-24	TimeBodyGyroscope-Standard Deviation()-X	Time for Accel in S	Numeric	Real Number
-25	TimeBodyGyroscope-Standard Deviation()-Y	Time for Accel in S	Numeric	Real Number
-26	TimeBodyGyroscope-Standard Deviation()-Z	Time for Accel in S	Numeric	Real Number
-27	TimeBodyGyroscopeJerk-Mean()-X	Time for Accel in S	Numeric	Real Number
-28	TimeBodyGyroscopeJerk-Mean()-Y	Time for Accel in S	Numeric	Real Number
-29	TimeBodyGyroscopeJerk-Mean()-Z	Time for Accel in S	Numeric	Real Number
-30	TimeBodyGyroscopeJerk-Standard Deviation()-X	Time for Accel in S	Numeric	Real Number
-31	TimeBodyGyroscopeJerk-Standard Deviation()-Y	Time for Accel in S	Numeric	Real Number
-32	TimeBodyGyroscopeJerk-Standard Deviation()-Z	Time for Accel in S	Numeric	Real Number
-33	TimeBodyAccelerometerMagnitude-Mean()	Time for Accel in S	Numeric	Real Number
-34	TimeBodyAccelerometerMagnitude-Standard Deviation()	Time for Accel in S	Numeric	Real Number
-35	TimeGravityAccelerometerMagnitude-Mean()	Time for Accel in S	Numeric	Real Number
-36	TimeGravityAccelerometerMagnitude-Standard Deviation()	Time for Accel in S	Numeric	Real Number
-37	TimeBodyAccelerometerJerkMagnitude-Mean()	Time for Accel in S	Numeric	Real Number
-38	TimeBodyAccelerometerJerkMagnitude-Standard Deviation()	Time for Accel in S	Numeric	Real Number
-39	TimeBodyGyroscopeMagnitude-Mean()	Time for Accel in S	Numeric	Real Number
-40	TimeBodyGyroscopeMagnitude-Standard Deviation()	Time for Accel in S	Numeric	Real Number
-41	TimeBodyGyroscopeJerkMagnitude-Mean()	Time for Accel in S	Numeric	Real Number
-42	TimeBodyGyroscopeJerkMagnitude-Standard Deviation()	Time for Accel in S	Numeric	Real Number
-43	FrequencyBodyAccelerometer-Mean()-X	Count samples taken	Numeric	Real Number
-44	FrequencyBodyAccelerometer-Mean()-Y	Count samples taken	Numeric	Real Number
-45	FrequencyBodyAccelerometer-Mean()-Z	Count samples taken	Numeric	Real Number
-46	FrequencyBodyAccelerometer-Standard Deviation()-X	Count samples taken	Numeric	Real Number
-47	FrequencyBodyAccelerometer-Standard Deviation()-Y	Count samples taken	Numeric	Real Number
-48	FrequencyBodyAccelerometer-Standard Deviation()-Z	Count samples taken	Numeric	Real Number
-49	FrequencyBodyAccelerometerJerk-Mean()-X	Count samples taken	Numeric	Real Number
-50	FrequencyBodyAccelerometerJerk-Mean()-Y	Count samples taken	Numeric	Real Number
-51	FrequencyBodyAccelerometerJerk-Mean()-Z	Count samples taken	Numeric	Real Number
-52	FrequencyBodyAccelerometerJerk-Standard Deviation()-X	Count samples taken	Numeric	Real Number
-53	FrequencyBodyAccelerometerJerk-Standard Deviation()-Y	Count samples taken	Numeric	Real Number
-54	FrequencyBodyAccelerometerJerk-Standard Deviation()-Z	Count samples taken	Numeric	Real Number
-55	FrequencyBodyGyroscope-Mean()-X	Count samples taken	Numeric	Real Number
-56	FrequencyBodyGyroscope-Mean()-Y	Count samples taken	Numeric	Real Number
-57	FrequencyBodyGyroscope-Mean()-Z	Count samples taken	Numeric	Real Number
-58	FrequencyBodyGyroscope-Standard Deviation()-X	Count samples taken	Numeric	Real Number
-59	FrequencyBodyGyroscope-Standard Deviation()-Y	Count samples taken	Numeric	Real Number
-60	FrequencyBodyGyroscope-Standard Deviation()-Z	Count samples taken	Numeric	Real Number
-61	FrequencyBodyAccelerometerMagnitude-Mean()	Count samples taken	Numeric	Real Number
-62	FrequencyBodyAccelerometerMagnitude-Standard Deviation()	Count samples taken	Numeric	Real Number
-63	FrequencyBodyAccelerometerJerkMagnitude-Mean()	Count samples taken	Numeric	Real Number
-64	FrequencyBodyAccelerometerJerkMagnitude-Standard Deviation()	Count samples taken	Numeric	Real Number
-65	FrequencyBodyGyroscopeMagnitude-Mean()	Count samples taken	Numeric	Real Number
-66	FrequencyBodyGyroscopeMagnitude-Standard Deviation()	Count samples taken	Numeric	Real Number
-67	FrequencyBodyGyroscopeJerkMagnitude-Mean()	Count samples taken	Numeric	Real Number
-68	FrequencyBodyGyroscopeJerkMagnitude-Standard Deviation()	Count samples taken	Numeric	Real Number
-
-
-
-
+### Fields
+Field #	Field Name
+1				Subject		- Domain 1-30
+2				Activity  - WALKING, SITTING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, STANDING, LAYING
+3				TimeBodyAccelerometer-Mean()-X - Seconds
+4				TimeBodyAccelerometer-Mean()-Y - Seconds
+5	TimeBodyAccelerometer-Mean()-Z - Seconds
+6	TimeBodyAccelerometer-Standard Deviation()-X - Seconds
+7	TimeBodyAccelerometer-Standard Deviation()-Y - Seconds
+8	TimeBodyAccelerometer-Standard Deviation()-Z - Seconds
+9	TimeGravityAccelerometer-Mean()-X - Seconds
+10	TimeGravityAccelerometer-Mean()-Y - Seconds
+11	TimeGravityAccelerometer-Mean()-Z - Seconds
+12	TimeGravityAccelerometer-Standard Deviation()-X - Seconds
+13	TimeGravityAccelerometer-Standard Deviation()-Y - Seconds
+14	TimeGravityAccelerometer-Standard Deviation()-Z - Seconds
+15	TimeBodyAccelerometerJerk-Mean()-X - Seconds
+16	TimeBodyAccelerometerJerk-Mean()-Y - Seconds
+17	TimeBodyAccelerometerJerk-Mean()-Z - Seconds
+18	TimeBodyAccelerometerJerk-Standard Deviation()-X - Seconds
+19	TimeBodyAccelerometerJerk-Standard Deviation()-Y - Seconds
+20	TimeBodyAccelerometerJerk-Standard Deviation()-Z - Seconds
+21	TimeBodyGyroscope-Mean()-X - Seconds
+22	TimeBodyGyroscope-Mean()-Y - Seconds
+23	TimeBodyGyroscope-Mean()-Z - Seconds
+24	TimeBodyGyroscope-Standard Deviation()-X - Seconds
+25	TimeBodyGyroscope-Standard Deviation()-Y - Seconds
+26	TimeBodyGyroscope-Standard Deviation()-Z - Seconds
+27	TimeBodyGyroscopeJerk-Mean()-X - Seconds
+28	TimeBodyGyroscopeJerk-Mean()-Y - Seconds
+29	TimeBodyGyroscopeJerk-Mean()-Z - Seconds
+30	TimeBodyGyroscopeJerk-Standard Deviation()-X - Seconds
+31	TimeBodyGyroscopeJerk-Standard Deviation()-Y - Seconds
+32	TimeBodyGyroscopeJerk-Standard Deviation()-Z - Seconds
+33	TimeBodyAccelerometerMagnitude-Mean() - Seconds
+34	TimeBodyAccelerometerMagnitude-Standard Deviation() - Seconds
+35	TimeGravityAccelerometerMagnitude-Mean() - Seconds
+36	TimeGravityAccelerometerMagnitude-Standard Deviation() - Seconds
+37	TimeBodyAccelerometerJerkMagnitude-Mean() - Seconds
+38	TimeBodyAccelerometerJerkMagnitude-Standard Deviation() - Seconds
+39	TimeBodyGyroscopeMagnitude-Mean() - Seconds
+40	TimeBodyGyroscopeMagnitude-Standard Deviation() - Seconds
+41	TimeBodyGyroscopeJerkMagnitude-Mean() - Seconds
+42	TimeBodyGyroscopeJerkMagnitude-Standard Deviation() - Seconds
+43	FrequencyBodyAccelerometer-Mean()-X 
+44	FrequencyBodyAccelerometer-Mean()-Y
+45	FrequencyBodyAccelerometer-Mean()-Z 
+46	FrequencyBodyAccelerometer-Standard Deviation()-X 
+47	FrequencyBodyAccelerometer-Standard Deviation()-Y
+48	FrequencyBodyAccelerometer-Standard Deviation()-Z
+49	FrequencyBodyAccelerometerJerk-Mean()-X
+50	FrequencyBodyAccelerometerJerk-Mean()-Y
+51	FrequencyBodyAccelerometerJerk-Mean()-Z
+52	FrequencyBodyAccelerometerJerk-Standard Deviation()-X
+53	FrequencyBodyAccelerometerJerk-Standard Deviation()-Y
+54	FrequencyBodyAccelerometerJerk-Standard Deviation()-Z
+55	FrequencyBodyGyroscope-Mean()-X
+56	FrequencyBodyGyroscope-Mean()-Y
+57	FrequencyBodyGyroscope-Mean()-Z
+58	FrequencyBodyGyroscope-Standard Deviation()-X
+59	FrequencyBodyGyroscope-Standard Deviation()-Y
+60	FrequencyBodyGyroscope-Standard Deviation()-Z
+61	FrequencyBodyAccelerometerMagnitude-Mean()
+62	FrequencyBodyAccelerometerMagnitude-Standard Deviation()
+63	FrequencyBodyAccelerometerJerkMagnitude-Mean()
+64	FrequencyBodyAccelerometerJerkMagnitude-Standard Deviation()
+65	FrequencyBodyGyroscopeMagnitude-Mean()
+66	FrequencyBodyGyroscopeMagnitude-Standard Deviation()
+67	FrequencyBodyGyroscopeJerkMagnitude-Mean()
+68	FrequencyBodyGyroscopeJerkMagnitude-Standard Deviation()
 
