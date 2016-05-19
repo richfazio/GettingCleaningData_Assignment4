@@ -1,6 +1,6 @@
 ### Code Book
 
-## Post process data sourced from 
+## Post process data sourced from: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 ## Coursera Assignment: You will be required to submit: 
