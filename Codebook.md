@@ -30,16 +30,16 @@ Filename: tidy_data_X_Y_subject_avg.txt (prettier view)
 Format: created by R write.table
 
 
-Field #	Field Name	Details	Datatype	Domain
-1	Subject	SubjectID Number	Numeric	1-30
-2	Activity	ActivityRecorded	String	WALKING, SITTING, 
-WALKING_UPSTAIRS, 
-WALKING_DOWNSTAIRS, 
-STANDING, LAYING
-3	TimeBodyAccelerometer-Mean()-X	Time for Accel in S	Numeric	Real Number
-4	TimeBodyAccelerometer-Mean()-Y	Time for Accel in S	Numeric	Real Number
-5	TimeBodyAccelerometer-Mean()-Z	Time for Accel in S	Numeric	Real Number
-6	TimeBodyAccelerometer-Standard Deviation()-X	Time for Accel in S	Numeric	Real Number
+Field #	  Field Name	                    Details	  Datatype	  Domain
+1	        Subject	                        SubjectID Number	    Numeric	1-30
+2	        Activity	                      ActivityRecorded	    String	WALKING, SITTING, 
+                                                                        WALKING_UPSTAIRS, 
+                                                                        WALKING_DOWNSTAIRS, 
+                                                                        STANDING, LAYING
+3	        TimeBodyAccelerometer-Mean()-X	Time for Accel in S	  Numeric	Real Number
+4	        TimeBodyAccelerometer-Mean()-Y	Time for Accel in S	  Numeric	Real Number
+5	        TimeBodyAccelerometer-Mean()-Z	Time for Accel in S	  Numeric	Real Number
+6	        TimeBodyAccelerometer-Standard Deviation()-X	Time for Accel in S	Numeric	Real Number
 7	TimeBodyAccelerometer-Standard Deviation()-Y	Time for Accel in S	Numeric	Real Number
 8	TimeBodyAccelerometer-Standard Deviation()-Z	Time for Accel in S	Numeric	Real Number
 9	TimeGravityAccelerometer-Mean()-X	Time for Accel in S	Numeric	Real Number
