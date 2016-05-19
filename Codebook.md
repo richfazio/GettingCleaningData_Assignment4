@@ -32,10 +32,15 @@ Format: created by R write.table
 ### Fields
 Field #	Field Name
 1				Subject		- Domain 1-30
+
 2				Activity  - WALKING, SITTING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, STANDING, LAYING
+
 3				TimeBodyAccelerometer-Mean()-X - Seconds
+
 4				TimeBodyAccelerometer-Mean()-Y - Seconds
-5	TimeBodyAccelerometer-Mean()-Z - Seconds
+
+5	      TimeBodyAccelerometer-Mean()-Z - Seconds
+
 6	TimeBodyAccelerometer-Standard Deviation()-X - Seconds
 7	TimeBodyAccelerometer-Standard Deviation()-Y - Seconds
 8	TimeBodyAccelerometer-Standard Deviation()-Z - Seconds
