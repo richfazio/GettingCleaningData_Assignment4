@@ -6,7 +6,9 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 ## Coursera Assignment: You will be required to submit: 
 
 1) a tidy data set as described below, 
+
 2) a link to a Github repository with your script for performing the analysis, and 
+
 3) a code book that describes the variables, the data, and any transformations or work that you performed to clean up the data called CodeBook.md. You should also include a README.md in the repo with your scripts. This repo explains how all of the scripts work and how they are connected.
 
 ### Inputs:
@@ -14,14 +16,23 @@ Data as described from ici.edu website
 
 ### Process:
 1) Initialization - prep environment
+
 2) Pull data file
+
 3) Load all data into workspace
+
 4) Merge training/test data together
+
 5) Select just the mean/std dev features from published files
+
 6) Add labels to selected data (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+
 7) Create superset
+
 8) Pretty up labels of selected data
+
 9) Compute summary metrics
+
 10) Publish new summary file
 
 ### Outputs:
