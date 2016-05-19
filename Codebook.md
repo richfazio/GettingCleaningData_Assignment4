@@ -30,17 +30,17 @@ Filename: tidy_data_X_Y_subject_avg.txt (prettier view)
 Format: created by R write.table
 
 ### Fields
-#Field #	Field Name
-#1				Subject		- Domain 1-30
-#2				Activity  - WALKING, SITTING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, STANDING, LAYING
-#3				TimeBodyAccelerometer-Mean()-X - Seconds
-#4				TimeBodyAccelerometer-Mean()-Y - Seconds
-#5	TimeBodyAccelerometer-Mean()-Z - Seconds
-#6	TimeBodyAccelerometer-Standard Deviation()-X - Seconds
-#7	TimeBodyAccelerometer-Standard Deviation()-Y - Seconds
-#8	TimeBodyAccelerometer-Standard Deviation()-Z - Seconds
-#9	TimeGravityAccelerometer-Mean()-X - Seconds
-#10	TimeGravityAccelerometer-Mean()-Y - Seconds
+Field #	Field Name
+1				Subject		- Domain 1-30
+2				Activity  - WALKING, SITTING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, STANDING, LAYING
+3				TimeBodyAccelerometer-Mean()-X - Seconds
+4				TimeBodyAccelerometer-Mean()-Y - Seconds
+5	TimeBodyAccelerometer-Mean()-Z - Seconds
+6	TimeBodyAccelerometer-Standard Deviation()-X - Seconds
+7	TimeBodyAccelerometer-Standard Deviation()-Y - Seconds
+8	TimeBodyAccelerometer-Standard Deviation()-Z - Seconds
+9	TimeGravityAccelerometer-Mean()-X - Seconds
+10	TimeGravityAccelerometer-Mean()-Y - Seconds
 11	TimeGravityAccelerometer-Mean()-Z - Seconds
 12	TimeGravityAccelerometer-Standard Deviation()-X - Seconds
 13	TimeGravityAccelerometer-Standard Deviation()-Y - Seconds
